@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ReactPlayer from 'react-player'
 
 const Home = () => {
-    const responsiveHeight = useBreakpointValue({ base: "800px", sm: "1000px", md: "1300px" })
+    const responsiveHeight = useBreakpointValue({ base: "900px", sm: "1000px", md: "1300px" })
     const dynamicSize = useBreakpointValue({ base: "300px", sm: "450px", md: "700px" })
 
     return (
