@@ -1,7 +1,9 @@
-import { Button, Flex, Heading, Text, Tooltip, Box, Divider } from "@chakra-ui/react"
+import { Button, Flex, Heading, Text, Tooltip, Box, Divider, useBreakpointValue } from "@chakra-ui/react"
 import { FaShoppingCart } from 'react-icons/fa'
 
 const ProductInfo = ({ name, price, size, sizeInfo, desc, material, shopee }) => {
+    const responsiveButtonWidth = useBreakpointValue({ base: "303px", sm: "668px", md: "303px" })
+
     return (
         <Flex flexDir="column" justifyContent="center" alignItems="flex-start">
             <Box paddingTop={2}>
@@ -15,7 +17,7 @@ const ProductInfo = ({ name, price, size, sizeInfo, desc, material, shopee }) =>
             <Text marginTop="3">
                 {desc}
             </Text>
-            <Text>
+            <Text marginTop={3}>
                 Material: {material}
             </Text>
             <Box marginY={5}>
@@ -29,8 +31,8 @@ const ProductInfo = ({ name, price, size, sizeInfo, desc, material, shopee }) =>
                 </Tooltip>
             </Box>
             <Divider />
-            <a href={shopee}>
-                <Button marginY={5} width="100%" leftIcon={<FaShoppingCart />}>
+            <a href={shopee} width="100%">
+                <Button width="1000px" maxWidth={responsiveButtonWidth} marginY={5} leftIcon={<FaShoppingCart />}>
                     Order
                 </Button>
             </a>
