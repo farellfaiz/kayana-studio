@@ -4,7 +4,6 @@ import {
     Text, 
     Image, 
     Flex, 
-    useBreakpointValue
 } from "@chakra-ui/react"
 
 
