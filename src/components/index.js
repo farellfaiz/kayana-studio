@@ -13,6 +13,7 @@ export { default as ItemBox } from "./atoms/ItemBox";
 export { default as KayanaCarousel } from "./atoms/KayanaCarousel";
 export { default as ProductImage } from "./atoms/ProductImage";
 export { default as ProductInfo } from "./atoms/ProductInfo";
+export { default as ScrollToTop } from "./atoms/ScrollToTop";
 
 // Molecules
 export { default as Home } from "./molecules/Home";
