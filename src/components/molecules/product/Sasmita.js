@@ -31,9 +31,9 @@ const Sasmita = () => {
                                 price="249.000"
                                 size="All Size"
                                 sizeInfo="110 cm x 110 cm"
-                                desc="Arunika is an Indonesian fauna inspired art in a form of printed 
+                                desc="Sasmita is an Indonesian fauna inspired art in a form of printed 
                                 fabric designed as an outer, which raises the theme “sunset” that is illustrated 
-                                y the dark-colored base of our cloth. There are buttons on the  two corners of 
+                                by the dark-colored base of our cloth. There are buttons on the  two corners of 
                                 the cloth that elevates practicality in using our art. This outer can be worn in 
                                 multiple ways, and we’re letting you to express your creativity in wearing our 
                                 art in your own unique ways."

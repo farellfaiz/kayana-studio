@@ -20,9 +20,9 @@ const ProductInfo = ({ name, price, size, sizeInfo, desc, material, shopee }) =>
             <Text marginTop={3}>
                 Material: {material}
             </Text>
-            <Box marginY={5}>
+            <Box marginTop={3} marginBottom={5}>
                 <Text display="inline-block">
-                    Size: <Text display="inline-block" fontStyle="italic" color="gray.500">(Hover/tap for size info)</Text>
+                    Size: <Text display="inline-block">110 cm x 110 cm</Text>
                 </Text>
                 <Tooltip hasArrow label={sizeInfo} bg="gray.700" color="white" placement="top">
                     <Button display="block" marginTop={2}>
