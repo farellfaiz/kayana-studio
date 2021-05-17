@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { Box, Center, Grid, Heading, Text, useBreakpointValue } from '@chakra-ui/react'
 import React from 'react'
 

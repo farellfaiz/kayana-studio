@@ -4,7 +4,7 @@ import {
     Grid, 
     useBreakpointValue 
 } from '@chakra-ui/react'
-import { ProductImage, ProductInfo } from './../../'
+import { ProductImage, ProductInfo } from './../../components'
 
 const Sasmita = () => {
     const responsiveGrid = useBreakpointValue({ base: "repeat(1, 1fr)", md: "repeat(2, 1fr)" })

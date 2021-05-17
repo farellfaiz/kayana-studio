@@ -1,5 +1,5 @@
 import { Box, Center, Heading, Spacer, Flex, Textarea, Button } from "@chakra-ui/react"
-import { KayanaInput } from ".."
+import { KayanaInput } from "./../components"
 import {
     FaUserAlt,
     FaPaperPlane,

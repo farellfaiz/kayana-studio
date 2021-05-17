@@ -1,6 +1,6 @@
-import Menu from "./Menu";
+import { Menu } from "./";
 import { Box, Flex, Spacer, Image, IconButton, useMediaQuery, useBreakpointValue } from "@chakra-ui/react"
-import { FaUserAlt, FaShoppingBag, FaPhoneAlt } from "react-icons/fa"
+import { FaShoppingBag, FaPhoneAlt } from "react-icons/fa"
 import { Link } from "react-router-dom";
 
 const Navigation = () => {

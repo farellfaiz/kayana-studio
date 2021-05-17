@@ -1,5 +1,5 @@
 import { Grid, Box, useBreakpointValue, Flex } from "@chakra-ui/react"
-import { Arunika, CollectionDesc, ItemBox } from './../'
+import { CollectionDesc, ItemBox } from './../components'
 import { Link } from "react-router-dom";
 
 const Shop = () => {
@@ -32,7 +32,7 @@ const Shop = () => {
             <CollectionDesc />
             <Grid h="auto" templateColumns={responsiveGrid} gap="30px">
                 {products.map((product) => (
-                    <Link to={product.link}>
+                    <Link key={product.id} to={product.link}>
                         <ItemBox 
                             img={product.img}
                             name={product.name}

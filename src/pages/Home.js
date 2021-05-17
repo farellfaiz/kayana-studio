@@ -1,4 +1,4 @@
-import { KayanaCarousel } from './../'
+import { KayanaCarousel } from './../components'
 import { Box, Center, useBreakpointValue } from "@chakra-ui/react"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ReactPlayer from 'react-player'

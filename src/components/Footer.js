@@ -11,7 +11,7 @@ import {
   } from '@chakra-ui/react'
 
 import { FaRegEnvelope, FaShoppingBag, FaInstagram } from 'react-icons/fa'
-import { IconFooter } from './../'
+import { IconFooter } from '.'
 
 const Footer = () => {
     return (

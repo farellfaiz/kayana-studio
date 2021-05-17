@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuButton from './nucleus/MenuButton';
+import { MenuButton } from './../';
 import {
     Drawer,
     DrawerBody,
@@ -13,7 +13,7 @@ import {
 import { Link } from "react-router-dom";
 
 import {
-    FaBars, FaHome, FaShoppingBag, FaQuestionCircle, FaPhoneAlt
+    FaBars, FaHome, FaShoppingBag, FaPhoneAlt
 } from "react-icons/fa";
 
 const Menu = () => {
