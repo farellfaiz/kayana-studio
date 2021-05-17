@@ -8,6 +8,7 @@ import {
   About,
   Arunika,
   Sasmita,
+  ScrollToTop
 } from "./components/index";
 import { ChakraProvider } from "@chakra-ui/react"
 
@@ -16,6 +17,7 @@ function App() {
     <ChakraProvider>
       <Router>
         <Navigation />
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/shop" exact component={() => <Shop />} />
