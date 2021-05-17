@@ -35,9 +35,6 @@ const Menu = () => {
                     <Link to="/shop">
                         <MenuButton name="&nbsp;&nbsp;Shop&nbsp;&nbsp;" icon={<FaShoppingBag />} />
                     </Link>
-                    <Link to="/about">
-                        <MenuButton name="&nbsp;About&nbsp;" icon={<FaQuestionCircle />} />
-                        </Link>
                     <Link to="/contact">
                         <MenuButton name="Contact" icon={<FaPhoneAlt />} />
                     </Link>

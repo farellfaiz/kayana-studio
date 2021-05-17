@@ -29,14 +29,11 @@ const Navigation = () => {
                 </Box>
                 <Spacer />
                 <Box>
-                    <Link to="/shop">
-                        <IconButton display={btnDisplay} aria-label="Shop" icon={<FaShoppingBag fontSize="13px" />} marginRight={2} variant="ghost" />
-                    </Link>
                     <Link to="/contact">
                         <IconButton display={btnDisplay} aria-label="Contact Us" icon={<FaPhoneAlt fontSize="13px" />} marginRight={2} variant="ghost" />
                     </Link>
-                    <Link to="/about">
-                        <IconButton aria-label="About Kayana" icon={<FaUserAlt fontSize="13px" />} />
+                    <Link to="/shop">
+                        <IconButton aria-label="Shop" icon={<FaShoppingBag fontSize="13px" />} />
                     </Link>
                 </Box>
             </Flex>
