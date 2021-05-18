@@ -1,5 +1,5 @@
 import { Menu } from "./";
-import { Box, Flex, Spacer, Image, IconButton, useMediaQuery, useBreakpointValue } from "@chakra-ui/react"
+import { Skeleton, Box, Flex, Spacer, Image, IconButton, useMediaQuery, useBreakpointValue } from "@chakra-ui/react"
 import { FaShoppingBag, FaPhoneAlt } from "react-icons/fa"
 import { Link } from "react-router-dom";
 
@@ -24,7 +24,9 @@ const Navigation = () => {
                 <Spacer />
                 <Box position="absolute" top={phoneSize ? "8px" : "-8px"}>
                     <Link to="/">
-                        <Image src="/img/branding/kayana-logo.png" alt="Kayana Studio" width={phoneSize ? "60px" : "90px"} />
+                        <Skeleton isLoaded>
+                            <Image src="/img/branding/kayana-logo.png" alt="Kayana Studio" width={phoneSize ? "60px" : "90px"} />
+                        </Skeleton>
                     </Link>
                 </Box>
                 <Spacer />

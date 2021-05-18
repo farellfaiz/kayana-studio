@@ -1,4 +1,4 @@
-import { Grid, Box, useBreakpointValue, Flex } from "@chakra-ui/react"
+import { Grid, Box, useBreakpointValue, Flex, Skeleton } from "@chakra-ui/react"
 import { CollectionDesc, ItemBox } from './../components'
 import { Link } from "react-router-dom";
 
@@ -32,13 +32,15 @@ const Shop = () => {
             <CollectionDesc />
             <Grid h="auto" templateColumns={responsiveGrid} gap="30px">
                 {products.map((product) => (
-                    <Link key={product.id} to={product.link}>
-                        <ItemBox 
-                            img={product.img}
-                            name={product.name}
-                            price={product.price}
-                        />
-                    </Link>
+                    <Skeleton isLoaded>
+                        <Link key={product.id} to={product.link}>
+                            <ItemBox 
+                                img={product.img}
+                                name={product.name}
+                                price={product.price}
+                            />
+                        </Link>
+                    </Skeleton>
                 ))}
             </Grid>
             </Flex>
