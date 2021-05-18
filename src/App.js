@@ -1,11 +1,15 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { ChakraProvider } from "@chakra-ui/react"
+
 import {
   ScrollToTop,
 } from "./utils/";
+
 import {
   Navigation,
   Footer,
 } from "./components/";
+
 import {
   Home,
   Shop,
@@ -14,7 +18,6 @@ import {
   Arunika,
   Sasmita,
 } from "./pages/";
-import { ChakraProvider } from "@chakra-ui/react"
 
 function App() {
   return (
