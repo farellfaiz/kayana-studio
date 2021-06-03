@@ -24,7 +24,7 @@ const Navigation = () => {
                 <Spacer />
                 <Box position="absolute" top={phoneSize ? "8px" : "-8px"}>
                     <Link to="/">
-                        <Skeleton isLoaded>
+                        <Skeleton fadeDuration="5" isLoaded height={phoneSize ? "60px" : "90px"} width={phoneSize ? "60px" : "90px"}>
                             <Image src="/img/branding/kayana-logo.png" alt="Kayana Studio" width={phoneSize ? "60px" : "90px"} />
                         </Skeleton>
                     </Link>
