@@ -17,7 +17,7 @@ const Contact = () => {
                 </Heading>
             </Center>
             <Center>
-                <form action="https://formsubmit.co/contact@kayana-studio.com" method="POST">
+                <form action="https://formsubmit.co/51dcb6d7815195eed5b6bcc7c66e3d5a" method="POST">
                     <Flex w="600px" justifyContent="center" alignItems="center" marginY={7} flexDir="column" >
                         <Flex w="100%" justifyContent="center" alignItems="center">
                             <KayanaInput icon={<FaUserAlt color="#CBD5E0" />} type="text" placeholder="Name" name="Name" />

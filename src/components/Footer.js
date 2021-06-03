@@ -30,7 +30,7 @@ const Footer = () => {
                 <Text align="center" maxWidth="400px" marginX={4} marginBottom={4}>
                     Updates you’ll want to know about—new products, stories, and promos. No spam. Unsubscribe anytime.
                 </Text>
-                <form action="https://formsubmit.co/subscription@kayana-studio.com" method="POST">
+                <form action="https://formsubmit.co/5f5d46b742f43c7c2b02668f6d42be16" method="POST">
                     <Flex justifyContent="center" alignItems="center" marginX={5} marginBottom={7}>
                         <InputGroup>
                             <Input 
